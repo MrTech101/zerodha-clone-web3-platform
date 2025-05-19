@@ -1,0 +1,9 @@
+| Service                  | Description                                                                                      | Tech Stack                            | Patterns (planned)                      |
+| ------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------- | --------------------------------------- |
+| **Auth Service**         | Handles legacy signup/login, wallet auth (MetaMask), and JWT                                     | Python (FastAPI), PostgreSQL          | Strategy, Adapter                       |
+| **Trading Service**      | Fetches prices, simulates or routes orders via smart contracts, interacts with CoinGecko or DEXs | Python, Web3.py, CoinGecko API, Redis | Proxy, Command, Template Method         |
+| **Portfolio Service**    | Manages watchlists, portfolios, trades history                                                   | Python, PostgreSQL                    | Singleton (portfolio session), Observer |
+| **Notification Service** | Sends real-time price alerts, order status, email/webhooks                                       | Redis Pub/Sub, WebSocket              | Observer, Mediator                      |
+| **Smart Contracts**      | Handles real token swaps, custom pools (future), ownership                                       | Solidity, Hardhat                     | Factory, Proxy                          |
+| **API Gateway**          | Handles routing + auth validation + rate limits                                                  | FastAPI (Python)                      | Facade, Proxy                           |
+| **Frontend (SPA)**       | Dashboard, trading panel, auth UI, wallet connect                                                | React.js / Next.js                    | —                                       |
