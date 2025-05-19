@@ -27,6 +27,6 @@ A decentralized, full-featured trading and portfolio management platform inspire
 See `/docs/architecture.md` for details.
 
 # SYSTEM DESIGN DIAGRAM
- 
-<!-- Uploading "ChatGPT Image May 18, 2025, 10_05_35 PM.png"... -->
+
+![SYSTEM DESIGN DIAGRAM](https://github.com/MrTech101/zerodha-clone-web3-platform/blob/main/ChatGPT%20Image%20May%2018,%202025,%2010_05_35%20PM.png?raw=true)
 
