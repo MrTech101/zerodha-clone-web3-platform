@@ -26,3 +26,24 @@ A decentralized, full-featured trading and portfolio management platform inspire
 
 See `/docs/architecture.md` for details.
 
+# SYSTEM DESIGN DIAGRAM
+ 
+[Frontend (React.js/Next.js)]
+        |
+        v
+[API Gateway (FastAPI)]
+        |
+  ---------------------------
+  |           |           |
+[Auth]   [Trading]   [Portfolio]
+  |           |           |
+  |           |        [Redis]
+  |           |           |
+  |        [CoinGecko API]|
+  |           |           |
+[PostgreSQL] [Web3 RPC/Provider]
+               |
+         [Smart Contracts]
+               |
+         [Ethereum / L2]
+
