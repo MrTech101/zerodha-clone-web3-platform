@@ -28,22 +28,5 @@ See `/docs/architecture.md` for details.
 
 # SYSTEM DESIGN DIAGRAM
  
-[Frontend (React.js/Next.js)]
-        |
-        v
-[API Gateway (FastAPI)]
-        |
-  ---------------------------
-  |           |           |
-[Auth]   [Trading]   [Portfolio]
-  |           |           |
-  |           |        [Redis]
-  |           |           |
-  |        [CoinGecko API]|
-  |           |           |
-[PostgreSQL] [Web3 RPC/Provider]
-               |
-         [Smart Contracts]
-               |
-         [Ethereum / L2]
+<!-- Uploading "ChatGPT Image May 18, 2025, 10_05_35 PM.png"... -->
 
